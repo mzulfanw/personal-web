@@ -1,0 +1,16 @@
+.wrapperHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+
+.wrapperHome .content__Home {
+    width: 100%;
+    height: auto;
+    background-color: #4a4e69;
+    padding: 50px 20px;
+}
+

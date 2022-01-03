@@ -1,0 +1,28 @@
+.wrapperNavbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.wrapperNavbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+@media ( max-width: 500px ) {
+    .wrapperNavbar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #4a4e69;
+        height: 10%;
+        border-radius: 40px;
+    }
+}

@@ -1,0 +1,54 @@
+.aboutWrapper {
+    padding: 50px 20px;
+    text-align: justify;
+}
+
+.aboutWrapper .wrapperContent {
+    margin-top: 40px;
+}
+
+span {
+    text-decoration: underline;
+}
+.about {
+    margin-bottom: 60px;
+}
+
+.about h1 {
+    margin-bottom: 15px;
+}
+
+.journey {
+    margin-bottom: 60px;
+}
+
+.journey h1 {
+    margin-bottom: 15px;
+}
+
+.ach h1 {
+    margin-bottom: 15px;
+}
+
+.achievment {
+    display: block;
+    margin: 0 auto;
+}
+
+.achievment h3 {
+    margin-bottom: 10px;
+}
+.achievment img  {
+    height: 300px;
+    object-fit: contain;
+}
+
+
+@media ( max-width: 400px ) {
+    .achievment img {
+        height: 150px;
+        object-fit: contain;
+    }
+}
+
+

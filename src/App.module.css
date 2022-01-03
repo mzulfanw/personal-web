@@ -1,0 +1,44 @@
+.App {
+    display: block;
+    margin: 30px 30px;
+}
+
+.wrapperNavbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.wrapperNavbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapperNavbar ul,li,a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.main {
+    margin: 0 auto;
+}
+
+
+
+@media ( max-width: 500px ) {
+    .wrapperNavbar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #4a4e69;
+        height: 10%;
+        border-radius: 40px;
+    }
+}
